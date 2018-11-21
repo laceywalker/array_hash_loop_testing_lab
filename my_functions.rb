@@ -13,3 +13,9 @@ end
 def find_item(array,item)
   array.include?(item)
 end
+
+def get_first_key(hash)
+  for name in hash
+    return hash.keys[0]
+  end
+end
