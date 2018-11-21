@@ -9,3 +9,7 @@ def sum_array(array_of_numbers)
   end
   return sum_of_array
 end
+
+def find_item(array,item)
+  array.include?(item)
+end
